@@ -58,7 +58,7 @@ tasks.withType(JavaCompile) {
 
 tasks.withType(Test) {
     useJUnitPlatform()
-    systemProperties(System.getProperties())
+
 
     testLogging {
         lifecycle {
@@ -68,12 +68,12 @@ tasks.withType(Test) {
     }
 }
 
-//test {
-//
-//    //Язык, на котором запуститься сайт
-//    // systemProperty "chromeoptions.prefs","int.accept_languages=en"
-//
-//   }
+test {
+
+    //Язык, на котором запуститься сайт
+    // systemProperty "chromeoptions.prefs","int.accept_languages=en"
+systemProperties(System.getProperties())
+   }
 
 task simple_test(type: Test) {
     useJUnitPlatform {
@@ -84,6 +84,12 @@ task simple_test(type: Test) {
 task remote_test(type: Test) {
     useJUnitPlatform {
         includeTags("remote")
+    }
+}
+
+task hw_test (type: Test) {
+    useJUnitPlatform{
+        includeTags("hw")
     }
 }
 //sourceCompatibility = JavaVersion.VERSION_15
