@@ -16,10 +16,9 @@ public class TestBaseFaker {
     @BeforeAll
 
   public  static void beforeAll() {
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        Configuration.baseUrl = "https://demoqa.com";
-       // Configuration.remote =  System.getProperty("selenoid_url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
-       // Configuration.baseUrl = System.getProperty("base_url", "https://demoqa.com");
+
+        Configuration.remote =  System.getProperty("selenoid_url", "https://user1:1234@selenoid.autotests.cloud/wd/hub");
+        Configuration.baseUrl = System.getProperty("base_url", "https://demoqa.com");
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browser_version", "100.0");
         Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
