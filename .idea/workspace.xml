@@ -191,8 +191,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [allureServe]" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [simple_test]" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [tasks]" />
       </list>
@@ -298,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680190915086</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2">
+      <created>1680191168465</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680191168465</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
