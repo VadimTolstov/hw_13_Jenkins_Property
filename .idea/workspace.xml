@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f7d4d3f-4c32-419d-95c9-5a33c727b6cb" name="Changes" comment="2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/RegistrationWithPageObjectsFakerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hw_13_Jenkins_Property/RegistrationWithPageObjectsFakerTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +78,7 @@
       <recent name="D:\program\IntelliJIDEA\Proect\hw_13_Jenkins_Property\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.hw_13_Jenkins_Property [allureServe]">
+  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest">
     <configuration name="RegistrationWithPageObjectsFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -190,10 +190,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [allureServe]" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [simple_test]" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [tasks]" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
       </list>
     </recent_temporary>
@@ -277,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680186262223</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2">
+      <created>1680186399550</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680186399550</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
