@@ -23,7 +23,7 @@ public class TestBaseFaker {
         Configuration.browser = System.getProperty("browser", "chrome");
         Configuration.browserVersion = System.getProperty("browser_version", "100.0");
         Configuration.browserSize = System.getProperty("browser_size", "1920x1080");
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+
 
         //Включаем VNC окошка в окошке и  включаем запись видео Video
         DesiredCapabilities capabilities = new DesiredCapabilities();
