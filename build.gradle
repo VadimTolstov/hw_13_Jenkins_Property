@@ -46,7 +46,7 @@ dependencies {
             'com.fasterxml.jackson.core:jackson-databind:2.13.1',
             'com.fasterxml.jackson.core:jackson-core:2.13.1',
             'org.aeonbits.owner:owner:1.0.12',
-
+            'org.aspectj:aspectjweaver:1.9.19',
             "io.qameta.allure:allure-selenide:$allureVersion"
 
     )
