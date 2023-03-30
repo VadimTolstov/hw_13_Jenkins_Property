@@ -10,13 +10,14 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 @DisplayName("Регистрация студента")
-@Tag("simple")
+
 public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     RegistrationPageFaker registrationPage = new RegistrationPageFaker();
     StudentData studentData = DataGenerator.getRandomStudent();
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
 
     @Test
+    @Tag("simple")
     @Regress
     @DisplayName("Регистрация студента")
     void fillFormTest() {
