@@ -46,6 +46,7 @@ dependencies {
             'com.fasterxml.jackson.core:jackson-databind:2.13.1',
             'com.fasterxml.jackson.core:jackson-core:2.13.1',
             'org.aeonbits.owner:owner:1.0.12',
+
             "io.qameta.allure:allure-selenide:$allureVersion"
 
     )
@@ -68,12 +69,12 @@ tasks.withType(Test) {
     }
 }
 
-//test {
-//
-//    //Язык, на котором запуститься сайт
-//    // systemProperty "chromeoptions.prefs","int.accept_languages=en"
-//systemProperties(System.getProperties())
-//   }
+test {
+
+    //Язык, на котором запуститься сайт
+    // systemProperty "chromeoptions.prefs","int.accept_languages=en"
+systemProperties(System.getProperties())
+   }
 
 task simple_test(type: Test) {
     useJUnitPlatform {

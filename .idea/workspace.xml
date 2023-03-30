@@ -7,6 +7,7 @@
     <list default="true" id="8f7d4d3f-4c32-419d-95c9-5a33c727b6cb" name="Changes" comment="2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +67,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/program/IntelliJIDEA/Proect/hw_13_Jenkins_Property/src/test/resources",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "last_opened_file_path": "D:/program/IntelliJIDEA/Proect/hw_12_Jenkins",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -191,10 +192,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [allureServe]" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [simple_test]" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [tasks]" />
-        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680186399550</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2">
+      <created>1680189429584</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189429584</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
