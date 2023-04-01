@@ -17,7 +17,7 @@ public class RegistrationWithPageObjectsFakerTests extends TestBaseFaker {
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
 
     @Test
-    @Tag("simple")
+    @Tag("remote_test")
     @DisplayName("Регистрация студента")
     void fillFormTest() {
 
