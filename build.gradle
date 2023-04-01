@@ -70,10 +70,10 @@ tasks.withType(Test) {
 }
 
 test {
-    useJUnitPlatform()
+
 //    //Язык, на котором запуститься сайт
 //    // systemProperty "chromeoptions.prefs","int.accept_languages=en"
-//    systemProperties(System.getProperties())
+    systemProperties(System.getProperties())
 }
 
 task simple_test(type: Test) {
