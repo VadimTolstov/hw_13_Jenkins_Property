@@ -1,8 +1,8 @@
 {
   "base": {
     "logo": "",
-    "project": "Dev",
-    "environment": "qa.guru",
+    "project": "HW",
+    "environment": "Dev",
     "comment": "any comment here, @DianaTolstovaa",
     "reportLink": "https://jenkins.autotests.cloud",
     "language": "ru",

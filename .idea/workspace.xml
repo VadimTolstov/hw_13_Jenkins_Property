@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f7d4d3f-4c32-419d-95c9-5a33c727b6cb" name="Changes" comment="hw_12">
-      <change beforePath="$PROJECT_DIR$/notifications/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/notifications/config.json" afterDir="false" />
+    <list default="true" id="8f7d4d3f-4c32-419d-95c9-5a33c727b6cb" name="Changes" comment="hw_14">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="D:\program\IntelliJIDEA\Proect\hw_13_Jenkins_Property\notifications" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest">
+  <component name="RunManager" selected="Gradle.hw_13_Jenkins_Property [allureServe]">
     <configuration name="RegistrationWithPageObjectsFakerTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -176,7 +177,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="hw_13_Jenkins_Property [tasks]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="hw_13_Jenkins_Property [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +188,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="tasks" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [allureServe]" />
+        <item itemvalue="Gradle.hw_13_Jenkins_Property [test]" />
+        <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests.fillFormTest" />
         <item itemvalue="Gradle.RegistrationWithPageObjectsFakerTests" />
         <item itemvalue="Gradle.hw_13_Jenkins_Property [simple_test]" />
-        <item itemvalue="Gradle.hw_13_Jenkins_Property [tasks]" />
       </list>
     </recent_temporary>
   </component>
@@ -433,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680353735541</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="hw_14">
+      <created>1680353891700</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1680353891700</updated>
+    </task>
+    <task id="LOCAL-00033" summary="hw_14">
+      <created>1680353924178</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680353924178</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -451,6 +466,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="hw_12" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw_12" />
+    <MESSAGE value="hw_14" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw_14" />
   </component>
 </project>
