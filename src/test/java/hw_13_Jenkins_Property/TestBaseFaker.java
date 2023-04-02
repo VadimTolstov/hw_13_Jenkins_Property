@@ -13,10 +13,12 @@ import java.util.Map;
 
 public class TestBaseFaker {
 
-    @BeforeAll
-
-    public static void beforeAll() {
-
+//    @BeforeAll
+//
+//    public static void beforeAll() {
+    @BeforeEach
+    void addListener() {
+        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         Configuration.remote = "https://user1:1234@" + System.getProperty("selenoid_url", "selenoid.autotests.cloud/wd/hub");
         Configuration.baseUrl = System.getProperty("base_url", "https://demoqa.com");
         Configuration.browser = System.getProperty("browser", "chrome");
@@ -33,10 +35,10 @@ public class TestBaseFaker {
         Configuration.browserCapabilities = capabilities;
     }
 
-    @BeforeEach
-    void addListener() {
-        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
+//    @BeforeEach
+//    void addListener() {
+//        SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
+//    }
 
     @AfterEach
     void addAttachments() {
